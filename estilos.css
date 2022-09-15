@@ -2,8 +2,42 @@
   margin: 0;
   padding: 0;
 }
+/*selector universal*/
 
 h1 {
   color: #ff0000;
   padding: 20px;
 }
+
+section {
+  margin: 10px;
+  background-color: #bbb;
+}
+
+section p {
+  padding: 5px;
+  color: #a00;
+}
+
+.destacado {
+  color: #0a0;
+}
+
+h2.destacado {
+  color: #00f;
+}
+
+#afa {
+  background-color: #000;
+  color: #fff;
+  margin: 10px;
+}
+
+p a {
+  color: #f00;
+}
+
+p > a {
+  color: #00f;
+}
+/*ese a es hijo directo del p*/
